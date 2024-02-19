@@ -139,27 +139,34 @@ $u(t)$ denotes the unit-step function.
 \\
 Using partial fraction,\\
 \begin{align}
-\frac{1}{s^3-s}=\frac{A}{s}+\frac{B}{s+1}+\frac{C}{s-1}\\
-\intertext{On Solving,}
+\frac{1}{s^3-s}=\frac{A}{s}+\frac{B}{s+1}+\frac{C}{s-1}
+\end{align}
+On Solving,
+\begin{align}
 \implies A=-1\quad B=\frac{1}{2} \quad C=\frac{1}{2}\\
 X(s)=\frac{-1}{s}+\frac{1}{2(s+1)}+\frac{1}{2(s-1)}\\
-\text{As} \quad e^{-at}u(t) \xrightarrow{\mathcal{L}} \frac{1}{s+a}\quad \text{Re(s)}>-a\\
-\text{And} \quad -e^{-at}u(-t) \xrightarrow{\mathcal{L}} \frac{1}{s+a}\quad \text{Re(s)}<-a\\
-\intertext{Now,}
-\mathcal{L}^{-1}(X(s))=x(t)\\
-\intertext{There are 4 cases possible,}
+\text{As} \quad e^{-at}u(t) \xrightarrow{\mathcal{L}} \frac{1}{s+a}\quad \Re(s)>-a\\
+\text{And} \quad -e^{-at}u(-t) \xrightarrow{\mathcal{L}} \frac{1}{s+a}\quad \Re(s)<-a
+\end{align}
+Now,
+\begin{align}
+\mathcal{L}^{-1}(X(s))=x(t)
+\end{align}
+
+There are 4 cases possible,
+\begin{align}
 x(t)=
 \begin{cases}
-        \left(1-\frac{1}{2}e^{-t}-\frac{1}{2}e^t\right)u(-t) & {Re(s)}<-1 \\
+        \left(1-\frac{1}{2}e^{-t}-\frac{1}{2}e^t\right)u(-t) & \Re(s)<-1 \\
         \\
-        -1u(-t)+\frac{1}{2}e^{-t}u(t)-\frac{1}{2}e^tu(-t) & {Re(s)}\in(-1,0)\\
+        -1u(-t)+\frac{1}{2}e^{-t}u(t)-\frac{1}{2}e^tu(-t) & \Re(s)\in(-1,0)\\
         \\
-        -u(t)+\frac{1}{2}e^{-t}u(t)-\frac{1}{2}e^tu(-t) & {Re(s)}\in(0,1)\\
+        -u(t)+\frac{1}{2}e^{-t}u(t)-\frac{1}{2}e^tu(-t) & \Re(s)\in(0,1)\\
         \\
-        \left(-1+\frac{1}{2}e^-t+\frac{1}{2}e^t\right)u(t) & {Re(s)}>1
+        \left(-1+\frac{1}{2}e^-t+\frac{1}{2}e^t\right)u(t) & \Re(s)>1
 \end{cases}
 \end{align}\\
  
-Thus the correct option is (A) $\left(-1+\frac{1}{2}e^-t+\frac{1}{2}e^t\right)u(t)$ for ${Re(s)}>1$
+Thus the correct option is (A) $\left(-1+\frac{1}{2}e^-t+\frac{1}{2}e^t\right)u(t)$ for $\Re(s)>1$
 
 \end{document}
