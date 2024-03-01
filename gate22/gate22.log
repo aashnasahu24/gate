@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  29 FEB 2024 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.5)  1 MAR 2024 06:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1199,6 +1199,9 @@ File: ot1txr.fd 2000/12/15 v3.1
 
 LaTeX Warning: Label `fig:fig1' multiply defined.
 
+
+LaTeX Warning: Label `fig:fig1' multiply defined.
+
 )
 \openout1 = `gate22.aux'.
 
@@ -1409,9 +1412,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
+<figs/plot1.png, id=47, 462.528pt x 346.896pt>
+File: figs/plot1.png Graphic file (type png)
+<use figs/plot1.png>
+Package pdftex.def Info: figs/plot1.png  used on input line 226.
+(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 [2
 
-] (./gate22.aux)
+ <./figs/plot1.png>] (./gate22.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1419,10 +1427,10 @@ Package rerunfilecheck Info: File `gate22.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 45217 strings out of 478287
- 1046987 string characters out of 5849290
- 1580045 words of memory out of 5000000
- 62664 multiletter control sequences out of 15000+600000
+ 45228 strings out of 478287
+ 1047155 string characters out of 5849290
+ 1580040 words of memory out of 5000000
+ 62671 multiletter control sequences out of 15000+600000
  549238 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,96p,410b,1224s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1436,10 +1444,10 @@ re/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmri8a.pfb>
-Output written on gate22.pdf (2 pages, 61572 bytes).
+Output written on gate22.pdf (2 pages, 79311 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
